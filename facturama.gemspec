@@ -10,5 +10,6 @@ Gem::Specification.new do |s|
     s.homepage    = 'http://rubygems.org/gems/facturama'
     s.license     = 'MIT'
     s.required_ruby_version = ">= 2.2.0"
-    s.add_runtime_dependency "rest-client", [">= 2.1.0.rc1"]
+    s.add_runtime_dependency "rest-client", ["~> 2.0"]
+    s.add_runtime_dependency "activemodel", ["4.2.6"]
 end

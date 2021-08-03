@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
     s.license     = 'MIT'
     s.required_ruby_version = ">= 2.2.0"
     s.add_runtime_dependency "rest-client", ["~> 2.0"]
-    s.add_runtime_dependency "activemodel", ["4.2.6"]
+    s.add_runtime_dependency "activemodel", ["~> 4.2.6"]
 end

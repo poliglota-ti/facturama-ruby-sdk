@@ -15,7 +15,7 @@ module Facturama
 
 
             def create(model)
-                post(model, "2/cfdis")
+                post(model, "3/cfdis")
             end
 
 
